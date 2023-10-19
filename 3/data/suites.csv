@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Oct 19 18:00:32 GMT 2023","Thu Oct 19 18:00:32 GMT 2023","309","","Verify Valet API - Bank of Canada","","","","Average Forex Conversion Rate - Incorrect conversion code",""
+"passed","Thu Oct 19 18:00:33 GMT 2023","Thu Oct 19 18:00:33 GMT 2023","268","","Verify Valet API - Bank of Canada","","","","Average Forex Conversion Rate - Bad Request - Incorrect query params",""
+"passed","Thu Oct 19 18:00:32 GMT 2023","Thu Oct 19 18:00:32 GMT 2023","193","","Verify Valet API - Bank of Canada","","","","Average Forex Conversion Rate - USD to CAD",""
+"passed","Thu Oct 19 18:00:32 GMT 2023","Thu Oct 19 18:00:32 GMT 2023","261","","Verify Valet API - Bank of Canada","","","","Average Forex Conversion Rate - CAD to AUD",""
