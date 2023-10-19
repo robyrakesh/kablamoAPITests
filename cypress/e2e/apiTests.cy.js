@@ -24,7 +24,7 @@ describe('Verify Valet API - Bank of Canada', () => {
         const res = await Requests.getConversionRate(conversion.USDtoCAD.series, qp)
         // Verify the response status and body
         const responseText = res.body.seriesDetail.FXUSDCAD.description
-        expect(res.status).to.be.eq(20)
+        expect(res.status).to.be.eq(200)
         expect(res.body).to.have.property('observations').to.be.an('array')
         expect(responseText).to.be.eq(conversion.USDtoCAD.conversionText)
         //Get the average conversion rate
